@@ -1,0 +1,16 @@
+{
+
+	"description" : "The CodeIgniter framework",
+	"name" : "codeigniter/framework",
+	"license": "MIT",
+    "config":
+    {
+      "vendor-dir":"application/vendor"
+    },
+    "require": {
+      "php": ">=5.2.4",
+      "doctrine/orm": "2.4.7",
+      "phpmailer/phpmailer": "v5.2.10",
+      "dompdf/dompdf" : "0.6.*"
+    }
+}
